@@ -1,0 +1,58 @@
+#aniabuidef {
+  padding: 0px;
+  height: 65%;
+  width: 65%;
+}
+.aniabuititle {
+  width: 100%;
+  background-color: cyan;
+}
+
+/* GLITCHY DESCRIPTION BUTTONS */
+.container_glitch_buttons {
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    width: 100%;
+}
+
+.glitchbutton {
+	cursor: pointer;
+}
+
+#button_backward {
+	cursor: pointer;
+}
+
+#button_forward {
+	cursor: pointer;
+}
+
+/* GLITCHY DESCRIPTION */
+.container_glitch {
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    max-width: 800px;
+		padding: 10px;
+    background-color: yellow;
+    border: 1.5px dashed black;
+}
+
+#text {
+	text-align: center;
+	height: auto;
+	color: black;
+}
+
+/*SOCIAL MEDIA*/
+.socialmedia {
+  display: inline-block;
+	margin-top: 0px;
+  padding: 0px 0px 10px 0px;
+}
+
+#socialmedia_text {
+  font-size: 13px;
+  margin-top: 30px;
+}

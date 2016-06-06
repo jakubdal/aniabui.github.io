@@ -1,0 +1,26 @@
+.categorybox {
+  /*background-color: cyan;*/
+}
+
+a:hover {
+  /*color: cyan;*/
+}
+
+
+#categoryname {
+  color: white;
+}
+
+/*#categorynamedef {
+  color: black;
+}*/
+
+.projectimage {
+}
+
+.projectimage:hover {
+  /*background-color: cyan;
+
+  display:none;*/
+
+}

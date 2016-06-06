@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+
+.categorybox {
+  padding: 30px 30px 30px 30px;
+}
+
+#categoryname {
+  font-family: "Open Sans Condensed";
+  font-weight: 300;
+  font-size: 50px;
+  margin: 0px;
+  /*word-spacing: -17px;*/
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  color: white;
+}
+
+#categorynamedef {
+  font-weight: 300;
+  font-size: 15px;
+  margin: 0px;
+  color: black;
+}
+
+.gallery {
+  width: auto;
+  margin-top: 50px;
+}
+
+.gallery_item {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+}
+
+/*.projectimage:hover {
+  opacity: 0.4;
+}*/
+
+.projectname {
+  font-size: 13.5px;
+  margin-top: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.projectsubname {
+  font-size: 13.5px;
+  text-transform: uppercase;;
+}
+
+span {
+  font-weight: 300;
+}

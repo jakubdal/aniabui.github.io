@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+
+.contactbox {
+  background-color: yellow;
+  padding: 30px;
+  margin: 0px;
+}
+
+#contactheading {
+  font-family: "Open Sans Condensed";
+  font-weight: 300;
+  font-size: 50px;
+  margin: 0px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
