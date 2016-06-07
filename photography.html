@@ -8,7 +8,9 @@
   <link href="css/general.css" rel="stylesheet" type="text/css"/>
   <link href="css/generalcategory.css" rel="stylesheet" type="text/css"/>
   <link href="css/photography.css" rel="stylesheet" type="text/css"/>
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/typed.js" type="text/javascript"></script>
+  <script src="js/slideshow.js" type="text/javascript"></script>
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
   <link rel="icon" href="img/favicon.gif" type="image/gif" />
 </head>
@@ -56,36 +58,37 @@
     <!-- GALLERY -->
     <div class="gallery">
       <div class="gallery_item">
-        <a href="food.html" target="_blank"><img class="projectimage" src="https://dl.dropboxusercontent.com/s/59a9mlkdjqluovw/food.gif?dl=0" onmouseover="this.src='img/photography/magenta.jpg'" onmouseout="this.src='https://dl.dropboxusercontent.com/s/59a9mlkdjqluovw/food.gif?dl=0'" width="300" height"300" alt="Food"></a>
+        <a href="food.html" target="_blank"><img class="projectimage" onmouseout="reset_image(this)" onmouseover="this.src='img/photography/magenta.jpg'" width="300" height="300" alt="Food"></a>
         <p class="projectname">FOOD</p></a>
       </div>
 
       <div class="gallery_item">
-        <a href="kamienico.html" target="_blank"><img class="projectimage" src="https://dl.dropboxusercontent.com/s/djsx0kxo688mpjd/kamienico.gif?dl=0" onmouseover="this.src='img/photography/magenta.jpg'" onmouseout="this.src='https://dl.dropboxusercontent.com/s/djsx0kxo688mpjd/kamienico.gif?dl=0'" width="300" height"300" alt="Kamien i co?"></a>
+        <a href="kamienico.html" target="_blank"><img class="projectimage" onmouseout="reset_image(this)" onmouseover="this.src='img/photography/magenta.jpg'" width="300" height="300" alt="Kamien i co?"></a>
         <p class="projectname">KAMIEN I CO?</p></a>
       </div>
 
       <div class="gallery_item">
-        <a href="cancer.html" target="_blank"><img class="projectimage" src="https://dl.dropboxusercontent.com/s/pcu3n6ftt8zxmxt/cancer.gif?dl=0" onmouseover="this.src='img/photography/magenta.jpg'" onmouseout="this.src='https://dl.dropboxusercontent.com/s/pcu3n6ftt8zxmxt/cancer.gif?dl=0'" width="300" height"300" alt="Cancer"></a>
+        <a href="cancer.html" target="_blank"><img class="projectimage" onmouseout="reset_image(this)" onmouseover="this.src='img/photography/magenta.jpg'" width="300" height="300" alt="Cancer"></a>
         <p class="projectname">CANCER</p></a>
       </div>
 
       <div class="gallery_item">
-        <a href="stephanie.html" target="_blank"><img class="projectimage" src="https://dl.dropboxusercontent.com/s/76tmvm4j7zejb2m/stephanie.gif?dl=0" onmouseover="this.src='img/photography/magenta.jpg'" onmouseout="this.src='https://dl.dropboxusercontent.com/s/76tmvm4j7zejb2m/stephanie.gif?dl=0'" width="300" height"300" alt="Stephanie"></a>
+        <a href="stephanie.html" target="_blank"><img class="projectimage" onmouseout="reset_image(this)" onmouseover="this.src='img/photography/magenta.jpg'" width="300" height="300" alt="Stephanie"></a>
         <p class="projectname">STEPHANIE</p></a>
       </div>
 
       <div class="gallery_item">
-        <a href="measles.html" target="_blank"><img class="projectimage" src="https://dl.dropboxusercontent.com/s/smnsy3helkpz6mw/measles.gif?dl=0" onmouseover="this.src='img/photography/magenta.jpg'" onmouseout="this.src='https://dl.dropboxusercontent.com/s/smnsy3helkpz6mw/measles.gif?dl=0'" width="300" height"300" alt="Measles"></a>
+        <a href="measles.html" target="_blank"><img class="projectimage" onmouseout="reset_image(this)" onmouseover="this.src='img/photography/magenta.jpg'" width="300" height="300" alt="Measles"></a>
         <p class="projectname">MEASLES</p></a>
       </div>
 
       <div class="gallery_item">
-        <a href="nyc.html" target="_blank"><img class="projectimage" src="https://dl.dropboxusercontent.com/s/bbba9vi1xdl5sye/nyc.gif?dl=0" onmouseover="this.src='img/photography/magenta.jpg'" onmouseout="this.src='https://dl.dropboxusercontent.com/s/bbba9vi1xdl5sye/nyc.gif?dl=0'" width="300" height"300" alt="Measles"></a>
+        <a href="nyc.html" target="_blank"><img class="projectimage" onmouseout="reset_image(this)" onmouseover="this.src='img/photography/magenta.jpg'" width="300" height="300" alt="Measles"></a>
         <p class="projectname">NYC LIGHTS</p></a>
       </div>
     </div>
 
   </main>
+  <script>set_imgname(0);</script>
 </body>
 </html>
